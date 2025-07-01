@@ -1,3 +1,39 @@
-p {
-    color: blue;
+body {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0px;
+    height: 100vh;
 }
+
+h1 {
+    font-size: 48px;
+}
+
+.background-leaves {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    flex: 0.3;
+
+}
+
+.transparent-bar {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+
+    flex: 0.7;
+}
+
+/* 
+h1 - 32-48px
+h2 - 24-40px
+h3 - 20-32px
+p  - 16-18px
+*/
