@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'norse-bold';
+    src: url(./fonts/Norse-Bold.otf);
+}
+
 body {
     display: flex;
     flex-direction: row;
@@ -6,15 +11,25 @@ body {
     height: 100vh;
 }
 
+a {
+    color: white;
+}
+
 img {
-    width: 200px;
-    height: 200px;
+    width: 75px;
+    height: 100px;
 }
 
 h1 {
-    font-size: 48px;
-    
-    padding-top: 3em;
+    font-size: 80px;
+    font-family: 'norse-bold';
+    color: white;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    color: white;
 }
 
 .background-leaves {
@@ -33,6 +48,14 @@ h1 {
 }
 
 .transparent-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 12em;
+
+    width: 100%;
+
     background-color: rgba(0,0,0,0.5);
 
 }
