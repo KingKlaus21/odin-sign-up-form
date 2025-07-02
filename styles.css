@@ -67,6 +67,24 @@ p {
     flex: 0.7;
 }
 
+.questions {
+    display: flex;
+    flex-direction: row;
+
+    /* justify-content: baseline; */
+    align-items: center;
+}
+
+.question-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.question-column:nth-last-child(1) {
+    background-color: yellow;
+    margin-left: 10%;
+}
+
 /* 
 h1 - 32-48px
 h2 - 24-40px
