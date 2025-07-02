@@ -63,8 +63,11 @@ p {
 .main-content-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     flex: 0.7;
+
+    --left-pad: 2.5em;
 }
 
 .questions {
@@ -83,6 +86,19 @@ p {
 .question-column:nth-last-child(1) {
     background-color: yellow;
     margin-left: 10%;
+}
+
+.intrigue-text-container {
+    padding-left: var(--left-pad);
+    padding-right: 41em;
+}
+
+.form-container {
+    padding-left: var(--left-pad);
+}
+
+.log-in-container {
+
 }
 
 /* 
