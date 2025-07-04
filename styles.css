@@ -3,6 +3,10 @@
     src: url(./fonts/Norse-Bold.otf);
 }
 
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: row;
@@ -27,9 +31,51 @@ h1 {
 }
 
 p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px;
     color: white;
+}
+
+label {
+    font-size: 13px;
+    font-weight: bold;
+    color: grey;
+}
+
+input {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: grey;
+    margin-bottom: 1em;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+    /* box-shadow: 0 0 0 2px rgba(0,0,255,0.3); */
+    box-shadow: 1px 1px 0 1px grey;
+}
+
+input:invalid {
+    border-color: red;
+    outline: none;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    /* box-shadow: 10px blue; */
+}
+
+button:focus,
+button:hover {
+    background-color: #48583a;
+    box-shadow: inset;
 }
 
 .background-leaves {
@@ -70,6 +116,11 @@ p {
     --left-pad: 2.5em;
 }
 
+.intrigue-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .questions {
     display: flex;
     flex-direction: row;
@@ -84,22 +135,31 @@ p {
 }
 
 .question-column:nth-last-child(1) {
-    background-color: yellow;
     margin-left: 10%;
 }
 
-.intrigue-text-container {
+.main-text-container {
     padding-left: var(--left-pad);
-    padding-right: 41em;
+    /* padding-right: 41em; */
+    padding-right: 20em;
 }
 
 .form-container {
+    margin-left: 0px;
+    padding-left: var(--left-pad);
+    /* border: none; */
+    background-color: #f9fafb;
+}
+
+/* legend {
+    font-size: 24px;
+} */
+
+.log-in-container {
     padding-left: var(--left-pad);
 }
 
-.log-in-container {
-
-}
+/* f9fafb */
 
 /* 
 h1 - 32-48px

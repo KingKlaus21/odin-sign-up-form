@@ -16,12 +16,12 @@
     </div>
     <div class="main-content-container">
         <form action="example.com/path" mathod="post">
-            <div class="intrigue-text-container">
-                <h2><strong>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <i>now</i> to get started.</strong></h2>
-                <h2><strong>You <i>know</i> you want to.</strong></h2>
+            <div class="main-text-container">
+                <h2 class="intrigue-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <i>now</i> to get started.</h2>
+                <h2 class="intrigue-text">You <i>know</i> you want to.</h2>
             </div>
             <fieldset class="form-container">
-                <legend>Let's do this!</legend>
+                <legend class="intrigue-text">Let's do this!</legend>
                 <div class="questions">
                     <div class="question-column">
                         <label for="first_name">FIRST NAME</label>
@@ -31,7 +31,7 @@
                         <input type="email" id="email" name="email" placeholder="johndoe@email.com">
 
                         <label for="user_password">PASSWORD</label>
-                        <input type="password" id="user_password" name="user_password" placeholder="Unbreakable47!">
+                        <input type="password" id="user_password" name="user_password" placeholder="Unbreakable47!" minlength="7" maxlength="20">
                     </div>
                     <div class="question-column">
                         <label for="last_name">LAST NAME</label>
@@ -41,7 +41,7 @@
                         <input type="tel" id="phone_number" name="phone_number" placeholder="415-867-5309">
 
                         <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_password" name="confirm_password" placeholder="Unbreakable47!">
+                        <input type="password" id="confirm_password" name="confirm_password" placeholder="Unbreakable47!" minlength="7" maxlength="20">
                     </div>
                 </div>
             </fieldset>
