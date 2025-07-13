@@ -13,6 +13,8 @@ body {
 
     margin: 0px;
     height: 100vh;
+
+    background-color: #f9fafb;
 }
 
 a {
@@ -63,6 +65,7 @@ input:invalid {
 }
 
 button {
+    margin-top: 1.5rem;
     background-color: #596D48;
     color: white;
     border-radius: 8px;
@@ -148,36 +151,26 @@ button:hover {
 
 .form-container {
     margin-left: 0px;
+    margin-right: 0px;
     padding-left: var(--left-pad);
     padding-top: 2rem;
-    background-color: #f9fafb;
-    /* background: yellow; */
+    /* background-color: #f9fafb; */
+    background: white;
     /* border: none; */
 
-    border: 1px solid rgba(0, 0, 0, 0.1); /* light gray, almost invisible */
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03); /* optional subtle shadow */
+    border: 1px solid rgba(37, 37, 37, 0.1);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
 
 }
 
 legend {
-    /* position: absolute;
-    margin-bottom: 100px; */
-    /* padding: 0.25rem 0.5rem; */
-    /* background: lime; */
-
-    /* all: unset;
-    display: block;
-    font-size: 1.25rem;
-    font-weight: 600;
-    padding: 0.5rem;
-    margin-bottom: 1rem; */
-
-
     position: relative;
     top: 1.5rem;
 
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    padding-top: 1.31\rem;
+    padding-top: 1.3rem;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 /* legend {
