@@ -66,7 +66,7 @@ button {
     background-color: #596D48;
     color: white;
     border-radius: 8px;
-    padding: 10px 40px;
+    padding: 10px 48px;
     font-size: 16px;
     font-weight: bold;
     /* box-shadow: 10px blue; */
@@ -144,11 +144,40 @@ button:hover {
     padding-right: 20em;
 }
 
+/* form-container is fieldset */
+
 .form-container {
     margin-left: 0px;
     padding-left: var(--left-pad);
-    /* border: none; */
+    padding-top: 2rem;
     background-color: #f9fafb;
+    /* background: yellow; */
+    /* border: none; */
+
+    border: 1px solid rgba(0, 0, 0, 0.1); /* light gray, almost invisible */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03); /* optional subtle shadow */
+
+}
+
+legend {
+    /* position: absolute;
+    margin-bottom: 100px; */
+    /* padding: 0.25rem 0.5rem; */
+    /* background: lime; */
+
+    /* all: unset;
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    margin-bottom: 1rem; */
+
+
+    position: relative;
+    top: 1.5rem;
+
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 1.31\rem;
 }
 
 /* legend {
