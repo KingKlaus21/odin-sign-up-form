@@ -79,6 +79,7 @@ button:focus,
 button:hover {
     background-color: #48583a;
     box-shadow: inset;
+    cursor: grab;
 }
 
 .background-leaves {
@@ -179,6 +180,23 @@ legend {
 
 .log-in-container {
     padding-left: var(--left-pad);
+}
+
+.have-account-text {
+    color: rgb(65, 65, 65);
+    font-size: 16px;
+}
+
+.log-in-link {
+    color: #596D48;
+    font-weight: bold;
+}
+
+.log-in-link:focus,
+.log-in-link:hover {
+    color: #48583a;
+    text-decoration: underline;
+    cursor: grab;
 }
 
 /* f9fafb */
